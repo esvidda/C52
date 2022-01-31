@@ -1,0 +1,48 @@
+h1{
+    color: #e19ce7;
+    padding-left:30px;
+}
+*{
+    border: solid;
+}
+.header{
+    background-color: blueviolet;
+    display:flex;
+    justify-content: space-between;
+    cursor: help;
+}
+.grid{
+   /* background-color: #fcf950;*/
+   text-decoration-line: line-through;
+   text-decoration-color: #7c1aa3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+ border:3px solid #a022ac;
+    display: flex;
+ justify-content: flex-start;   
+} 
+a:link{
+    color:khaki;
+}
+a:visited{
+    color:lavender;
+}
+.characters{
+    position:relative;
+}
+.characters p{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+opacity: 0;
+}
+.characters:hover p{
+    opacity:1;
+}
+.characters:hover img{
+    opacity:0.33;
+}
